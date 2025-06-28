@@ -1,0 +1,207 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.todo-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+}
+
+.input-group button {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#task-list li {
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#task-list li button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-day {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 10px 0 5px;
+    color: #ffc107;
+}
+
+.task-list {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.task-list .task-item {
+    margin: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item span {
+    font-weight: bold;
+} */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('https://cdn2.vectorstock.com/i/1000x1000/99/66/task-management-to-do-lists-vector-21299966.jpg');
+    no-repeat center center fixed;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    color: #fff;
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.todo-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px 25px;
+    border-radius: 20px;
+    width: 95%;
+    max-width: 500px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    color: #ffc107;
+    text-shadow: 0 0 3px #000;
+}
+
+#task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#task-form input,
+#task-form button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+#task-form input:focus {
+    outline: 2px solid #ffc107;
+}
+
+#task-form button {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#task-form button:hover {
+    background-color: #e0a800;
+}
+
+.task-list {
+    margin-top: 20px;
+    background: #fff;
+    color: #333;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-day {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.task-item:last-child {
+    border-bottom: none;
+}
+
+.task-item span {
+    color: #555;
+    font-weight: bold;
+}
+
+.task-item button {
+    background: red;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
